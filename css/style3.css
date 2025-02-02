@@ -1,0 +1,65 @@
+body {
+  margin: 0%;
+  padding: 0%;
+ background-color:  whitesmoke;
+}
+
+h1 {
+  color: rgb(141, 98, 46);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(161, 105, 38);
+
+  text-align: center;
+}
+
+h3 {
+  color: rgb(179, 114, 34);
+  text-align: center;
+}
+p {
+  color: rgb(68, 48, 25);
+  font-size: 20px;
+  text-align: center;
+  display: 1;
+}
+
+h4 {
+  color: sandybrown;
+  text-align: center;
+  display: flex;
+}
+
+nav {
+   
+   background-color: hsl(192, 26%, 85%);
+  font-size: 20px;
+  color: whitesmoke;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  display: flex;
+  padding: 1px;
+}
+
+nav li,
+a {
+  display: inline-block;
+
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.tel {
+  font-size: 36px;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav a:hover {
+  color: whitesmoke;
+}
